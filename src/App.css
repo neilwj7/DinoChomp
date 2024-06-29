@@ -1,38 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(215, 179, 136);
+}
+
 .App {
+  display: block;
+  justify-content: center;
+}
+
+.grid-div {
+  display: grid;
+  grid-template-columns: repeat(5, 75px);
+  grid-template-rows: repeat(5, 75px);
+  gap: 1px;
+}
+
+.title-div h1 {
+  font-size: 40px;
+  font-family: 'Press Start 2P', cursive;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.scoreboard-div h1 {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bombcheck-div {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.timer-div h3 {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+.startgame-div {
+  text-align: center;
+}
+
+.ihategrids {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

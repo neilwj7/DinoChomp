@@ -1,0 +1,6 @@
+.block {
+    width: 75px;
+    height: 75px;
+    display:flex;
+    box-sizing: border-box;
+}
